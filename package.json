@@ -9,7 +9,7 @@
   "license": "ISC",
   "scripts": {
     "dev": "jiti src/app.ts",
-    "start": "node src/entry/index.js",
+    "start": "node index.js",
     "build": "jiti src/app.ts",
     "c": "rimraf ./dist & tsc"
   },
