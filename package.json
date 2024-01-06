@@ -1,0 +1,29 @@
+{
+  "name": "proxy-api-koa",
+  "type": "module",
+  "version": "0.0.0-alpha.1",
+  "description": "proxy api koa",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "jiti src/app.ts",
+    "build": "jiti src/app.ts",
+    "c": "rimraf ./dist & tsc"
+  },
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "deepl-node": "^1.11.0",
+    "koa": "^2.15.0",
+    "koa-body": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.12",
+    "@types/koa__router": "^12.0.4",
+    "@vercel/node": "^3.0.15",
+    "dotenv": "^16.3.1",
+    "jiti": "^1.21.0",
+    "typescript": "^5.3.3"
+  }
+}
